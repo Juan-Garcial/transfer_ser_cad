@@ -1,0 +1,15 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++seed_arg=80
+-f
+list.f
+-l
+./logs/comp.log
++define+XCELIUM+
+-access
++rwc
+-timescale
+1ns/1ps
+-sv

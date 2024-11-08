@@ -1,0 +1,235 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 21.10-p002_1, built Fri Aug 20 03:13:13 PDT 2021
+Options: -legacy_ui -files alfacen_genus.tcl 
+Date:    Thu Oct 03 21:19:31 2024
+Host:    joc047 (x86_64 w/Linux 4.19.0-20-amd64) (12cores*4cpus*1physical cpu*Intel(R) Xeon(R) Gold 5118 CPU @ 2.30GHz 16896KB) (8388608KB)
+PID:     14230
+OS:      CentOS Linux release 7.9.2009 (Core)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (10 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source alfacen_genus.tcl
+  Setting attribute of root '/': 'init_lib_search_path' = /home/joc/jc_work/command_test/genus/
+  Setting attribute of root '/': 'script_search_path' = /home/joc/jc_work/command_test/genus/
+  Setting attribute of root '/': 'init_hdl_search_path' = /home/joc/jc_work/command_test/rtl/lz/
+  Setting attribute of root '/': 'hdl_language' = sv
+
+Threads Configured:3
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'. The attribute 'related_bias_pin' specified for the pg_pin 'VGND' is being ignored. (File /home/joc/jc_work/command_test/genus//sky130_fd_sc_hd__ff_100C_1v65.lib, Line 82148)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'. The attribute 'related_bias_pin' specified for the pg_pin 'VGND' is being ignored. (File /home/joc/jc_work/command_test/genus//sky130_fd_sc_hd__ff_100C_1v65.lib, Line 82282)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'. The attribute 'related_bias_pin' specified for the pg_pin 'VGND' is being ignored. (File /home/joc/jc_work/command_test/genus//sky130_fd_sc_hd__ff_100C_1v65.lib, Line 82416)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'. The attribute 'related_bias_pin' specified for the pg_pin 'VGND' is being ignored. (File /home/joc/jc_work/command_test/genus//sky130_fd_sc_hd__ff_100C_1v65.lib, Line 82693)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'. The attribute 'related_bias_pin' specified for the pg_pin 'VGND' is being ignored. (File /home/joc/jc_work/command_test/genus//sky130_fd_sc_hd__ff_100C_1v65.lib, Line 82827)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'. The attribute 'related_bias_pin' specified for the pg_pin 'VGND' is being ignored. (File /home/joc/jc_work/command_test/genus//sky130_fd_sc_hd__ff_100C_1v65.lib, Line 82961)
+
+  Message Summary for Library sky130_fd_sc_hd__ff_100C_1v65.lib:
+  **************************************************************
+  Missing pg_pin group in the library. [LBR-702]: 6
+  An unsupported construct was detected in this library. [LBR-40]: 1
+  **************************************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.650000, 100.000000) in library 'sky130_fd_sc_hd__ff_100C_1v65.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_12' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Else the library cell will be marked as timing model i.e. unusable. Timing_model means that the cell does not have any defined function. If there is no output pin, Genus will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the power_ground pins. Genus will depend upon the output function defined in the pin group (output pin) of the cell, to use it for mapping. The pg_pin will not have any function defined.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_12' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_6' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_6' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_8' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_8' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__diode_2' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__diode_2' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_bleeder_1' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_bleeder_1' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_12' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_12' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_4' must have an output pin.
+  Setting attribute of root '/': 'library' = sky130_fd_sc_hd__ff_100C_1v65.lib
+  Setting attribute of root '/': 'timing_disable_library_data_to_data_checks' = false
+  Setting attribute of root '/': 'timing_disable_non_sequential_checks' = false
+set_db lzc_8 .dont_touch true
+           |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting token ';', found '<identifier>' in file '../rtl/lz/lzc_8.sv' on line 2, column 12.
+        : Invalid Verilog syntax is parsed, or unsupported Verilog syntax is encountered.
+  lzc_4 lzc_4_comp_0 (
+                   |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting token ';', found '<identifier>' in file '../rtl/lz/lzc_8.sv' on line 25, column 20.
+  lzc_4 lzc_4_comp_1 (
+                   |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of symbol 'lzc_4' in file '../rtl/lz/lzc_8.sv' on line 31, column 20.
+        : A variable cannot be redeclared in the same scope. Check the reported RTL file and remove duplicate declarations.
+  lzc_4 lzc_4_comp_1 (
+                   |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting token ';', found '<identifier>' in file '../rtl/lz/lzc_8.sv' on line 31, column 20.
+  assign s0 = v1 | v0;
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 37, column 8.
+  assign s0 = v1 | v0;
+            |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of symbol 's0' in file '../rtl/lz/lzc_8.sv' on line 37, column 13.
+  assign s0 = v1 | v0;
+                     |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '../rtl/lz/lzc_8.sv' on line 37, column 22.
+        : For example, the following constructs will be ignored:
+    - initial block
+    - final block
+    - program block
+    - property block
+    - sequence block
+    - covergroup
+    - checker block
+    - gate drive strength
+    - system task enable
+    - reg declaration with initial value
+    - specify block.
+  assign s1 = (~v1) & z0[0];
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 38, column 8.
+  assign s1 = (~v1) & z0[0];
+            |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of symbol 's1' in file '../rtl/lz/lzc_8.sv' on line 38, column 13.
+  assign s1 = (~v1) & z0[0];
+                           |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '../rtl/lz/lzc_8.sv' on line 38, column 28.
+  assign s2 = z1[0] | s1;
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 39, column 8.
+  assign s2 = z1[0] | s1;
+            |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of symbol 's2' in file '../rtl/lz/lzc_8.sv' on line 39, column 13.
+  assign s2 = z1[0] | s1;
+                        |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '../rtl/lz/lzc_8.sv' on line 39, column 25.
+  assign s3 = (~v1) & z0[1];
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 40, column 8.
+  assign s3 = (~v1) & z0[1];
+            |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of symbol 's3' in file '../rtl/lz/lzc_8.sv' on line 40, column 13.
+  assign s3 = (~v1) & z0[1];
+                           |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '../rtl/lz/lzc_8.sv' on line 40, column 28.
+  assign s4 = z1[1] | s3;
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 41, column 8.
+  assign s4 = z1[1] | s3;
+            |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of symbol 's4' in file '../rtl/lz/lzc_8.sv' on line 41, column 13.
+  assign s4 = z1[1] | s3;
+                        |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '../rtl/lz/lzc_8.sv' on line 41, column 25.
+  assign v = s0;
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 43, column 8.
+  assign v = s0;
+               |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '../rtl/lz/lzc_8.sv' on line 43, column 16.
+  assign c[0] = s2;
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 44, column 8.
+  assign c[0] = s2;
+                  |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '../rtl/lz/lzc_8.sv' on line 44, column 19.
+  assign c[1] = s4;
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 45, column 8.
+  assign c[1] = s4;
+              |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of symbol 'c' in file '../rtl/lz/lzc_8.sv' on line 45, column 15.
+  assign c[1] = s4;
+                  |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '../rtl/lz/lzc_8.sv' on line 45, column 19.
+  assign c[2] = v1;
+       |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting a package item. in file '../rtl/lz/lzc_8.sv' on line 46, column 8.
+  assign c[2] = v1;
+              |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of symbol 'c' in file '../rtl/lz/lzc_8.sv' on line 46, column 15.
+  assign c[2] = v1;
+                 |
+Error   : Parsing error. [VLOGPT-1] [read_hdl]
+        : Expecting token ';', found '<identifier>' in file '../rtl/lz/lzc_8.sv' on line 46, column 18.
+1
+Encountered problems processing file: alfacen_genus.tcl
+WARNING: This version of the tool is 1140 days old.
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 167s, ST: 17s, FG: 17s, CPU: 9.8%}, MEM {curr: 1.1G, peak: 1.1G, phys curr: 0.4G, phys peak: 0.4G}, SYS {load: 0.2, cpu: 48, total: 8.0G, free: 2.5G}
+Abnormal exit.
+Encountered a problem while exiting.

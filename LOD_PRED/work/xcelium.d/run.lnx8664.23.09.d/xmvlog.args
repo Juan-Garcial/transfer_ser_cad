@@ -1,0 +1,26 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.23.09.d
+-RUNMODE
+../rtl/lods_4.sv
+../rtl/lods_12.sv
+../rtl/lods_12_pre.sv
+../rtl/pre_sum.sv
+../verif/lovs_sw_12.sv
+../verif/tb_lods_12_pre.sv
+-DEFINE
+XCELIUM
+-sv
+-CDSLIB
+./xcelium.d/run.lnx8664.23.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.23.09.d/hdlrun.var
+-no_analogsolver
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.23.09.d/xllibs
+-ALLOWUNBOUND

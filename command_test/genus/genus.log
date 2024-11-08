@@ -1,0 +1,36 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 21.10-p002_1, built Fri Aug 20 03:13:13 PDT 2021
+Options: -legacy_ui -files alfacen_genus.tcl 
+Date:    Thu Oct 03 19:22:31 2024
+Host:    joc047 (x86_64 w/Linux 4.19.0-20-amd64) (12cores*4cpus*1physical cpu*Intel(R) Xeon(R) Gold 5118 CPU @ 2.30GHz 16896KB) (8388608KB)
+PID:     9326
+OS:      CentOS Linux release 7.9.2009 (Core)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (12 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source alfacen_genus.tcl
+Error   : A command argument did not match any of the acceptable command options. [TUI-170] [set_db]
+        : 'test/genus/' is not a legal option for the command.
+        : Check the command usage and correct the input to the command.
+1
+Encountered problems processing file: alfacen_genus.tcl
+WARNING: This version of the tool is 1140 days old.
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 57s, ST: 12s, FG: 12s, CPU: 9.4%}, MEM {curr: 0.9G, peak: 0.9G, phys curr: 0.3G, phys peak: 0.3G}, SYS {load: 0.1, cpu: 48, total: 8.0G, free: 2.6G}
+Abnormal exit.
+Encountered a problem while exiting.

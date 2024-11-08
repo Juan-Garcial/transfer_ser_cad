@@ -1,0 +1,10 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(15Oct2024:00:08:17):( xrun +seed_arg=80 -f list.f -l ./logs/comp.log +define+XCELIUM+ -access +rwc -timescale 1ns/1ps -sv )
+s2::(15Oct2024:00:09:57):( xrun +seed_arg=80 -f list.f -l ./logs/comp.log +define+XCELIUM+ -access +rwc -timescale 1ns/1ps -sv )
+s3::(15Oct2024:00:10:27):( xrun +seed_arg=80 -f list.f -l ./logs/comp.log +define+XCELIUM+ -access +rwc -timescale 1ns/1ps -sv )
+s4::(15Oct2024:00:12:23):( xrun +seed_arg=80 -f list.f -l ./logs/comp.log +define+XCELIUM+ -access +rwc -timescale 1ns/1ps -sv )
+s5::(15Oct2024:00:24:46):( xrun +seed_arg=80 -f list.f -l ./logs/comp.log +define+XCELIUM+ -access +rwc -timescale 1ns/1ps -sv )
+s6::(15Oct2024:00:25:56):( xrun +seed_arg=80 -f list.f -l ./logs/comp.log +define+XCELIUM+ -access +rwc -timescale 1ns/1ps -sv )
